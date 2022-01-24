@@ -1,0 +1,50 @@
+$date
+	Sat Jan 08 02:28:50 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module sram_tb $end
+$var wire 1 ! QB $end
+$var wire 1 " Q $end
+$var reg 1 # BL $end
+$var reg 1 $ WL $end
+$scope module uut $end
+$var wire 1 # BL $end
+$var wire 1 $ WL $end
+$var reg 1 " Q $end
+$var reg 1 ! QB $end
+$var reg 1 % SRAM $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0%
+x$
+x#
+0"
+1!
+$end
+#20
+0$
+0#
+#40
+0!
+1"
+1%
+1$
+1#
+#60
+0$
+#80
+0#
+#100
+1!
+0"
+0%
+1$
+#120

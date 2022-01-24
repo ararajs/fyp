@@ -1,0 +1,98 @@
+$date
+	Sat Jan 08 15:41:32 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module bitcell_tb $end
+$var wire 1 ! SO $end
+$var wire 1 " OUTPUT $end
+$var wire 1 # CO $end
+$var reg 1 $ BL $end
+$var reg 1 % CE $end
+$var reg 1 & CI $end
+$var reg 1 ' INPUT $end
+$var reg 1 ( SI $end
+$var reg 1 ) WE $end
+$var reg 1 * WL $end
+$scope module uut $end
+$var wire 1 $ BL $end
+$var wire 1 % CE $end
+$var wire 1 & CI $end
+$var wire 1 ' INPUT $end
+$var wire 1 ( SI $end
+$var wire 1 ! SO $end
+$var wire 1 ) WE $end
+$var wire 1 * WL $end
+$var wire 1 + XNOR_to_MUX $end
+$var wire 1 , WE_MUX_to_FA $end
+$var wire 1 - SRAM_to_XNOR $end
+$var wire 1 . SRAM_QB $end
+$var wire 1 " OUTPUT $end
+$var wire 1 # CO $end
+$var wire 1 / CE_MUX_to_FA $end
+$scope module ce_mux $end
+$var wire 1 0 A $end
+$var wire 1 & B $end
+$var wire 1 % S $end
+$var reg 1 / O $end
+$upscope $end
+$scope module fa $end
+$var wire 1 ' A $end
+$var wire 1 / Cin $end
+$var wire 1 , B $end
+$var reg 1 # Co $end
+$var reg 1 " S $end
+$upscope $end
+$scope module sram $end
+$var wire 1 $ BL $end
+$var wire 1 * WL $end
+$var reg 1 - Q $end
+$var reg 1 . QB $end
+$var reg 1 1 SRAM $end
+$upscope $end
+$scope module we_mux $end
+$var wire 1 ( A $end
+$var wire 1 ) S $end
+$var wire 1 + B $end
+$var reg 1 , O $end
+$upscope $end
+$scope module xnor1 $end
+$var wire 1 $ A $end
+$var wire 1 - B $end
+$var reg 1 + O $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+11
+00
+0/
+0.
+1-
+1,
+1+
+1*
+1)
+0(
+0'
+0&
+1%
+1$
+0#
+1"
+z!
+$end
+#20
+0"
+0,
+10
+0+
+0$
+0*
+#40

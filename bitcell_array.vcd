@@ -1,0 +1,2235 @@
+$date
+	Sun Jan 09 00:56:13 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module bitcell_array_tb $end
+$var wire 4 ! OUTPUT [3:0] $end
+$var reg 4 " BL [3:0] $end
+$var reg 4 # CI [3:0] $end
+$var reg 4 $ INPUT [3:0] $end
+$var reg 4 % SI [3:0] $end
+$var reg 4 & WL [3:0] $end
+$scope module uut $end
+$var wire 4 ' BL [3:0] $end
+$var wire 4 ( CI [3:0] $end
+$var wire 4 ) INPUT [3:0] $end
+$var wire 4 * SI [3:0] $end
+$var wire 4 + WL [3:0] $end
+$var wire 1 , S_3_3O $end
+$var wire 1 - S_3_23 $end
+$var wire 1 . S_3_12 $end
+$var wire 1 / S_3_01 $end
+$var wire 1 0 S_2_3O $end
+$var wire 1 1 S_2_23 $end
+$var wire 1 2 S_2_12 $end
+$var wire 1 3 S_2_01 $end
+$var wire 1 4 S_1_3O $end
+$var wire 1 5 S_1_23 $end
+$var wire 1 6 S_1_12 $end
+$var wire 1 7 S_1_01 $end
+$var wire 1 8 S_0_3O $end
+$var wire 1 9 S_0_23 $end
+$var wire 1 : S_0_12 $end
+$var wire 1 ; S_0_01 $end
+$var wire 4 < OUTPUT [3:0] $end
+$var wire 1 = IO_3_23 $end
+$var wire 1 > IO_3_12 $end
+$var wire 1 ? IO_3_01 $end
+$var wire 1 @ IO_2_23 $end
+$var wire 1 A IO_2_12 $end
+$var wire 1 B IO_2_01 $end
+$var wire 1 C IO_1_23 $end
+$var wire 1 D IO_1_12 $end
+$var wire 1 E IO_1_01 $end
+$var wire 1 F IO_0_23 $end
+$var wire 1 G IO_0_12 $end
+$var wire 1 H IO_0_01 $end
+$var wire 1 I C_3_3O $end
+$var wire 1 J C_3_23 $end
+$var wire 1 K C_3_12 $end
+$var wire 1 L C_3_01 $end
+$var wire 1 M C_2_3O $end
+$var wire 1 N C_2_23 $end
+$var wire 1 O C_2_12 $end
+$var wire 1 P C_2_01 $end
+$var wire 1 Q C_1_3O $end
+$var wire 1 R C_1_23 $end
+$var wire 1 S C_1_12 $end
+$var wire 1 T C_1_01 $end
+$var wire 1 U C_0_3O $end
+$var wire 1 V C_0_23 $end
+$var wire 1 W C_0_12 $end
+$var wire 1 X C_0_01 $end
+$scope module B_0_0 $end
+$var wire 1 Y BL $end
+$var wire 1 Z CE $end
+$var wire 1 [ CI $end
+$var wire 1 \ INPUT $end
+$var wire 1 ] SI $end
+$var wire 1 ; SO $end
+$var wire 1 ^ WE $end
+$var wire 1 _ WL $end
+$var wire 1 ` XNOR_to_MUX $end
+$var wire 1 a WE_MUX_to_FA $end
+$var wire 1 b SRAM_to_XNOR $end
+$var wire 1 c SRAM_QB $end
+$var wire 1 H OUTPUT $end
+$var wire 1 X CO $end
+$var wire 1 d CE_MUX_to_FA $end
+$scope module ce_mux $end
+$var wire 1 e A $end
+$var wire 1 [ B $end
+$var wire 1 Z S $end
+$var reg 1 d O $end
+$upscope $end
+$scope module fa $end
+$var wire 1 \ A $end
+$var wire 1 d Cin $end
+$var wire 1 a B $end
+$var reg 1 X Co $end
+$var reg 1 H S $end
+$upscope $end
+$scope module sram $end
+$var wire 1 Y BL $end
+$var wire 1 _ WL $end
+$var reg 1 b Q $end
+$var reg 1 c QB $end
+$var reg 1 f SRAM $end
+$upscope $end
+$scope module we_mux $end
+$var wire 1 ] A $end
+$var wire 1 ^ S $end
+$var wire 1 ` B $end
+$var reg 1 a O $end
+$upscope $end
+$scope module xnor1 $end
+$var wire 1 Y A $end
+$var wire 1 b B $end
+$var reg 1 ` O $end
+$upscope $end
+$upscope $end
+$scope module B_0_1 $end
+$var wire 1 g BL $end
+$var wire 1 h CE $end
+$var wire 1 i CI $end
+$var wire 1 H INPUT $end
+$var wire 1 j SI $end
+$var wire 1 7 SO $end
+$var wire 1 k WE $end
+$var wire 1 l WL $end
+$var wire 1 m XNOR_to_MUX $end
+$var wire 1 n WE_MUX_to_FA $end
+$var wire 1 o SRAM_to_XNOR $end
+$var wire 1 p SRAM_QB $end
+$var wire 1 G OUTPUT $end
+$var wire 1 T CO $end
+$var wire 1 q CE_MUX_to_FA $end
+$scope module ce_mux $end
+$var wire 1 r A $end
+$var wire 1 i B $end
+$var wire 1 h S $end
+$var reg 1 q O $end
+$upscope $end
+$scope module fa $end
+$var wire 1 H A $end
+$var wire 1 q Cin $end
+$var wire 1 n B $end
+$var reg 1 T Co $end
+$var reg 1 G S $end
+$upscope $end
+$scope module sram $end
+$var wire 1 g BL $end
+$var wire 1 l WL $end
+$var reg 1 o Q $end
+$var reg 1 p QB $end
+$var reg 1 s SRAM $end
+$upscope $end
+$scope module we_mux $end
+$var wire 1 j A $end
+$var wire 1 k S $end
+$var wire 1 m B $end
+$var reg 1 n O $end
+$upscope $end
+$scope module xnor1 $end
+$var wire 1 g A $end
+$var wire 1 o B $end
+$var reg 1 m O $end
+$upscope $end
+$upscope $end
+$scope module B_0_2 $end
+$var wire 1 t BL $end
+$var wire 1 u CE $end
+$var wire 1 v CI $end
+$var wire 1 G INPUT $end
+$var wire 1 w SI $end
+$var wire 1 3 SO $end
+$var wire 1 x WE $end
+$var wire 1 y WL $end
+$var wire 1 z XNOR_to_MUX $end
+$var wire 1 { WE_MUX_to_FA $end
+$var wire 1 | SRAM_to_XNOR $end
+$var wire 1 } SRAM_QB $end
+$var wire 1 F OUTPUT $end
+$var wire 1 P CO $end
+$var wire 1 ~ CE_MUX_to_FA $end
+$scope module ce_mux $end
+$var wire 1 !" A $end
+$var wire 1 v B $end
+$var wire 1 u S $end
+$var reg 1 ~ O $end
+$upscope $end
+$scope module fa $end
+$var wire 1 G A $end
+$var wire 1 ~ Cin $end
+$var wire 1 { B $end
+$var reg 1 P Co $end
+$var reg 1 F S $end
+$upscope $end
+$scope module sram $end
+$var wire 1 t BL $end
+$var wire 1 y WL $end
+$var reg 1 | Q $end
+$var reg 1 } QB $end
+$var reg 1 "" SRAM $end
+$upscope $end
+$scope module we_mux $end
+$var wire 1 w A $end
+$var wire 1 x S $end
+$var wire 1 z B $end
+$var reg 1 { O $end
+$upscope $end
+$scope module xnor1 $end
+$var wire 1 t A $end
+$var wire 1 | B $end
+$var reg 1 z O $end
+$upscope $end
+$upscope $end
+$scope module B_0_3 $end
+$var wire 1 #" BL $end
+$var wire 1 $" CE $end
+$var wire 1 %" CI $end
+$var wire 1 F INPUT $end
+$var wire 1 &" SI $end
+$var wire 1 / SO $end
+$var wire 1 '" WE $end
+$var wire 1 (" WL $end
+$var wire 1 )" XNOR_to_MUX $end
+$var wire 1 *" WE_MUX_to_FA $end
+$var wire 1 +" SRAM_to_XNOR $end
+$var wire 1 ," SRAM_QB $end
+$var wire 1 -" OUTPUT $end
+$var wire 1 L CO $end
+$var wire 1 ." CE_MUX_to_FA $end
+$scope module ce_mux $end
+$var wire 1 /" A $end
+$var wire 1 %" B $end
+$var wire 1 $" S $end
+$var reg 1 ." O $end
+$upscope $end
+$scope module fa $end
+$var wire 1 F A $end
+$var wire 1 ." Cin $end
+$var wire 1 *" B $end
+$var reg 1 L Co $end
+$var reg 1 -" S $end
+$upscope $end
+$scope module sram $end
+$var wire 1 #" BL $end
+$var wire 1 (" WL $end
+$var reg 1 +" Q $end
+$var reg 1 ," QB $end
+$var reg 1 0" SRAM $end
+$upscope $end
+$scope module we_mux $end
+$var wire 1 &" A $end
+$var wire 1 '" S $end
+$var wire 1 )" B $end
+$var reg 1 *" O $end
+$upscope $end
+$scope module xnor1 $end
+$var wire 1 #" A $end
+$var wire 1 +" B $end
+$var reg 1 )" O $end
+$upscope $end
+$upscope $end
+$scope module B_1_0 $end
+$var wire 1 1" BL $end
+$var wire 1 2" CE $end
+$var wire 1 X CI $end
+$var wire 1 3" INPUT $end
+$var wire 1 ; SI $end
+$var wire 1 : SO $end
+$var wire 1 4" WE $end
+$var wire 1 5" WL $end
+$var wire 1 6" XNOR_to_MUX $end
+$var wire 1 7" WE_MUX_to_FA $end
+$var wire 1 8" SRAM_to_XNOR $end
+$var wire 1 9" SRAM_QB $end
+$var wire 1 E OUTPUT $end
+$var wire 1 W CO $end
+$var wire 1 :" CE_MUX_to_FA $end
+$scope module ce_mux $end
+$var wire 1 ;" A $end
+$var wire 1 X B $end
+$var wire 1 2" S $end
+$var reg 1 :" O $end
+$upscope $end
+$scope module fa $end
+$var wire 1 3" A $end
+$var wire 1 :" Cin $end
+$var wire 1 7" B $end
+$var reg 1 W Co $end
+$var reg 1 E S $end
+$upscope $end
+$scope module sram $end
+$var wire 1 1" BL $end
+$var wire 1 5" WL $end
+$var reg 1 8" Q $end
+$var reg 1 9" QB $end
+$var reg 1 <" SRAM $end
+$upscope $end
+$scope module we_mux $end
+$var wire 1 ; A $end
+$var wire 1 4" S $end
+$var wire 1 6" B $end
+$var reg 1 7" O $end
+$upscope $end
+$scope module xnor1 $end
+$var wire 1 1" A $end
+$var wire 1 8" B $end
+$var reg 1 6" O $end
+$upscope $end
+$upscope $end
+$scope module B_1_1 $end
+$var wire 1 =" BL $end
+$var wire 1 >" CE $end
+$var wire 1 T CI $end
+$var wire 1 E INPUT $end
+$var wire 1 7 SI $end
+$var wire 1 6 SO $end
+$var wire 1 ?" WE $end
+$var wire 1 @" WL $end
+$var wire 1 A" XNOR_to_MUX $end
+$var wire 1 B" WE_MUX_to_FA $end
+$var wire 1 C" SRAM_to_XNOR $end
+$var wire 1 D" SRAM_QB $end
+$var wire 1 D OUTPUT $end
+$var wire 1 S CO $end
+$var wire 1 E" CE_MUX_to_FA $end
+$scope module ce_mux $end
+$var wire 1 F" A $end
+$var wire 1 T B $end
+$var wire 1 >" S $end
+$var reg 1 E" O $end
+$upscope $end
+$scope module fa $end
+$var wire 1 E A $end
+$var wire 1 E" Cin $end
+$var wire 1 B" B $end
+$var reg 1 S Co $end
+$var reg 1 D S $end
+$upscope $end
+$scope module sram $end
+$var wire 1 =" BL $end
+$var wire 1 @" WL $end
+$var reg 1 C" Q $end
+$var reg 1 D" QB $end
+$var reg 1 G" SRAM $end
+$upscope $end
+$scope module we_mux $end
+$var wire 1 7 A $end
+$var wire 1 ?" S $end
+$var wire 1 A" B $end
+$var reg 1 B" O $end
+$upscope $end
+$scope module xnor1 $end
+$var wire 1 =" A $end
+$var wire 1 C" B $end
+$var reg 1 A" O $end
+$upscope $end
+$upscope $end
+$scope module B_1_2 $end
+$var wire 1 H" BL $end
+$var wire 1 I" CE $end
+$var wire 1 P CI $end
+$var wire 1 D INPUT $end
+$var wire 1 3 SI $end
+$var wire 1 2 SO $end
+$var wire 1 J" WE $end
+$var wire 1 K" WL $end
+$var wire 1 L" XNOR_to_MUX $end
+$var wire 1 M" WE_MUX_to_FA $end
+$var wire 1 N" SRAM_to_XNOR $end
+$var wire 1 O" SRAM_QB $end
+$var wire 1 C OUTPUT $end
+$var wire 1 O CO $end
+$var wire 1 P" CE_MUX_to_FA $end
+$scope module ce_mux $end
+$var wire 1 Q" A $end
+$var wire 1 P B $end
+$var wire 1 I" S $end
+$var reg 1 P" O $end
+$upscope $end
+$scope module fa $end
+$var wire 1 D A $end
+$var wire 1 P" Cin $end
+$var wire 1 M" B $end
+$var reg 1 O Co $end
+$var reg 1 C S $end
+$upscope $end
+$scope module sram $end
+$var wire 1 H" BL $end
+$var wire 1 K" WL $end
+$var reg 1 N" Q $end
+$var reg 1 O" QB $end
+$var reg 1 R" SRAM $end
+$upscope $end
+$scope module we_mux $end
+$var wire 1 3 A $end
+$var wire 1 J" S $end
+$var wire 1 L" B $end
+$var reg 1 M" O $end
+$upscope $end
+$scope module xnor1 $end
+$var wire 1 H" A $end
+$var wire 1 N" B $end
+$var reg 1 L" O $end
+$upscope $end
+$upscope $end
+$scope module B_1_3 $end
+$var wire 1 S" BL $end
+$var wire 1 T" CE $end
+$var wire 1 L CI $end
+$var wire 1 C INPUT $end
+$var wire 1 / SI $end
+$var wire 1 . SO $end
+$var wire 1 U" WE $end
+$var wire 1 V" WL $end
+$var wire 1 W" XNOR_to_MUX $end
+$var wire 1 X" WE_MUX_to_FA $end
+$var wire 1 Y" SRAM_to_XNOR $end
+$var wire 1 Z" SRAM_QB $end
+$var wire 1 [" OUTPUT $end
+$var wire 1 K CO $end
+$var wire 1 \" CE_MUX_to_FA $end
+$scope module ce_mux $end
+$var wire 1 ]" A $end
+$var wire 1 L B $end
+$var wire 1 T" S $end
+$var reg 1 \" O $end
+$upscope $end
+$scope module fa $end
+$var wire 1 C A $end
+$var wire 1 \" Cin $end
+$var wire 1 X" B $end
+$var reg 1 K Co $end
+$var reg 1 [" S $end
+$upscope $end
+$scope module sram $end
+$var wire 1 S" BL $end
+$var wire 1 V" WL $end
+$var reg 1 Y" Q $end
+$var reg 1 Z" QB $end
+$var reg 1 ^" SRAM $end
+$upscope $end
+$scope module we_mux $end
+$var wire 1 / A $end
+$var wire 1 U" S $end
+$var wire 1 W" B $end
+$var reg 1 X" O $end
+$upscope $end
+$scope module xnor1 $end
+$var wire 1 S" A $end
+$var wire 1 Y" B $end
+$var reg 1 W" O $end
+$upscope $end
+$upscope $end
+$scope module B_2_0 $end
+$var wire 1 _" BL $end
+$var wire 1 `" CE $end
+$var wire 1 W CI $end
+$var wire 1 a" INPUT $end
+$var wire 1 : SI $end
+$var wire 1 9 SO $end
+$var wire 1 b" WE $end
+$var wire 1 c" WL $end
+$var wire 1 d" XNOR_to_MUX $end
+$var wire 1 e" WE_MUX_to_FA $end
+$var wire 1 f" SRAM_to_XNOR $end
+$var wire 1 g" SRAM_QB $end
+$var wire 1 B OUTPUT $end
+$var wire 1 V CO $end
+$var wire 1 h" CE_MUX_to_FA $end
+$scope module ce_mux $end
+$var wire 1 i" A $end
+$var wire 1 W B $end
+$var wire 1 `" S $end
+$var reg 1 h" O $end
+$upscope $end
+$scope module fa $end
+$var wire 1 a" A $end
+$var wire 1 h" Cin $end
+$var wire 1 e" B $end
+$var reg 1 V Co $end
+$var reg 1 B S $end
+$upscope $end
+$scope module sram $end
+$var wire 1 _" BL $end
+$var wire 1 c" WL $end
+$var reg 1 f" Q $end
+$var reg 1 g" QB $end
+$var reg 1 j" SRAM $end
+$upscope $end
+$scope module we_mux $end
+$var wire 1 : A $end
+$var wire 1 b" S $end
+$var wire 1 d" B $end
+$var reg 1 e" O $end
+$upscope $end
+$scope module xnor1 $end
+$var wire 1 _" A $end
+$var wire 1 f" B $end
+$var reg 1 d" O $end
+$upscope $end
+$upscope $end
+$scope module B_2_1 $end
+$var wire 1 k" BL $end
+$var wire 1 l" CE $end
+$var wire 1 S CI $end
+$var wire 1 B INPUT $end
+$var wire 1 6 SI $end
+$var wire 1 5 SO $end
+$var wire 1 m" WE $end
+$var wire 1 n" WL $end
+$var wire 1 o" XNOR_to_MUX $end
+$var wire 1 p" WE_MUX_to_FA $end
+$var wire 1 q" SRAM_to_XNOR $end
+$var wire 1 r" SRAM_QB $end
+$var wire 1 A OUTPUT $end
+$var wire 1 R CO $end
+$var wire 1 s" CE_MUX_to_FA $end
+$scope module ce_mux $end
+$var wire 1 t" A $end
+$var wire 1 S B $end
+$var wire 1 l" S $end
+$var reg 1 s" O $end
+$upscope $end
+$scope module fa $end
+$var wire 1 B A $end
+$var wire 1 s" Cin $end
+$var wire 1 p" B $end
+$var reg 1 R Co $end
+$var reg 1 A S $end
+$upscope $end
+$scope module sram $end
+$var wire 1 k" BL $end
+$var wire 1 n" WL $end
+$var reg 1 q" Q $end
+$var reg 1 r" QB $end
+$var reg 1 u" SRAM $end
+$upscope $end
+$scope module we_mux $end
+$var wire 1 6 A $end
+$var wire 1 m" S $end
+$var wire 1 o" B $end
+$var reg 1 p" O $end
+$upscope $end
+$scope module xnor1 $end
+$var wire 1 k" A $end
+$var wire 1 q" B $end
+$var reg 1 o" O $end
+$upscope $end
+$upscope $end
+$scope module B_2_2 $end
+$var wire 1 v" BL $end
+$var wire 1 w" CE $end
+$var wire 1 O CI $end
+$var wire 1 A INPUT $end
+$var wire 1 2 SI $end
+$var wire 1 1 SO $end
+$var wire 1 x" WE $end
+$var wire 1 y" WL $end
+$var wire 1 z" XNOR_to_MUX $end
+$var wire 1 {" WE_MUX_to_FA $end
+$var wire 1 |" SRAM_to_XNOR $end
+$var wire 1 }" SRAM_QB $end
+$var wire 1 @ OUTPUT $end
+$var wire 1 N CO $end
+$var wire 1 ~" CE_MUX_to_FA $end
+$scope module ce_mux $end
+$var wire 1 !# A $end
+$var wire 1 O B $end
+$var wire 1 w" S $end
+$var reg 1 ~" O $end
+$upscope $end
+$scope module fa $end
+$var wire 1 A A $end
+$var wire 1 ~" Cin $end
+$var wire 1 {" B $end
+$var reg 1 N Co $end
+$var reg 1 @ S $end
+$upscope $end
+$scope module sram $end
+$var wire 1 v" BL $end
+$var wire 1 y" WL $end
+$var reg 1 |" Q $end
+$var reg 1 }" QB $end
+$var reg 1 "# SRAM $end
+$upscope $end
+$scope module we_mux $end
+$var wire 1 2 A $end
+$var wire 1 x" S $end
+$var wire 1 z" B $end
+$var reg 1 {" O $end
+$upscope $end
+$scope module xnor1 $end
+$var wire 1 v" A $end
+$var wire 1 |" B $end
+$var reg 1 z" O $end
+$upscope $end
+$upscope $end
+$scope module B_2_3 $end
+$var wire 1 ## BL $end
+$var wire 1 $# CE $end
+$var wire 1 K CI $end
+$var wire 1 @ INPUT $end
+$var wire 1 . SI $end
+$var wire 1 - SO $end
+$var wire 1 %# WE $end
+$var wire 1 &# WL $end
+$var wire 1 '# XNOR_to_MUX $end
+$var wire 1 (# WE_MUX_to_FA $end
+$var wire 1 )# SRAM_to_XNOR $end
+$var wire 1 *# SRAM_QB $end
+$var wire 1 +# OUTPUT $end
+$var wire 1 J CO $end
+$var wire 1 ,# CE_MUX_to_FA $end
+$scope module ce_mux $end
+$var wire 1 -# A $end
+$var wire 1 K B $end
+$var wire 1 $# S $end
+$var reg 1 ,# O $end
+$upscope $end
+$scope module fa $end
+$var wire 1 @ A $end
+$var wire 1 ,# Cin $end
+$var wire 1 (# B $end
+$var reg 1 J Co $end
+$var reg 1 +# S $end
+$upscope $end
+$scope module sram $end
+$var wire 1 ## BL $end
+$var wire 1 &# WL $end
+$var reg 1 )# Q $end
+$var reg 1 *# QB $end
+$var reg 1 .# SRAM $end
+$upscope $end
+$scope module we_mux $end
+$var wire 1 . A $end
+$var wire 1 %# S $end
+$var wire 1 '# B $end
+$var reg 1 (# O $end
+$upscope $end
+$scope module xnor1 $end
+$var wire 1 ## A $end
+$var wire 1 )# B $end
+$var reg 1 '# O $end
+$upscope $end
+$upscope $end
+$scope module B_3_0 $end
+$var wire 1 /# BL $end
+$var wire 1 0# CE $end
+$var wire 1 V CI $end
+$var wire 1 1# INPUT $end
+$var wire 1 9 SI $end
+$var wire 1 8 SO $end
+$var wire 1 2# WE $end
+$var wire 1 3# WL $end
+$var wire 1 4# XNOR_to_MUX $end
+$var wire 1 5# WE_MUX_to_FA $end
+$var wire 1 6# SRAM_to_XNOR $end
+$var wire 1 7# SRAM_QB $end
+$var wire 1 ? OUTPUT $end
+$var wire 1 U CO $end
+$var wire 1 8# CE_MUX_to_FA $end
+$scope module ce_mux $end
+$var wire 1 9# A $end
+$var wire 1 V B $end
+$var wire 1 0# S $end
+$var reg 1 8# O $end
+$upscope $end
+$scope module fa $end
+$var wire 1 1# A $end
+$var wire 1 8# Cin $end
+$var wire 1 5# B $end
+$var reg 1 U Co $end
+$var reg 1 ? S $end
+$upscope $end
+$scope module sram $end
+$var wire 1 /# BL $end
+$var wire 1 3# WL $end
+$var reg 1 6# Q $end
+$var reg 1 7# QB $end
+$var reg 1 :# SRAM $end
+$upscope $end
+$scope module we_mux $end
+$var wire 1 9 A $end
+$var wire 1 2# S $end
+$var wire 1 4# B $end
+$var reg 1 5# O $end
+$upscope $end
+$scope module xnor1 $end
+$var wire 1 /# A $end
+$var wire 1 6# B $end
+$var reg 1 4# O $end
+$upscope $end
+$upscope $end
+$scope module B_3_1 $end
+$var wire 1 ;# BL $end
+$var wire 1 <# CE $end
+$var wire 1 R CI $end
+$var wire 1 ? INPUT $end
+$var wire 1 5 SI $end
+$var wire 1 4 SO $end
+$var wire 1 =# WE $end
+$var wire 1 ># WL $end
+$var wire 1 ?# XNOR_to_MUX $end
+$var wire 1 @# WE_MUX_to_FA $end
+$var wire 1 A# SRAM_to_XNOR $end
+$var wire 1 B# SRAM_QB $end
+$var wire 1 > OUTPUT $end
+$var wire 1 Q CO $end
+$var wire 1 C# CE_MUX_to_FA $end
+$scope module ce_mux $end
+$var wire 1 D# A $end
+$var wire 1 R B $end
+$var wire 1 <# S $end
+$var reg 1 C# O $end
+$upscope $end
+$scope module fa $end
+$var wire 1 ? A $end
+$var wire 1 C# Cin $end
+$var wire 1 @# B $end
+$var reg 1 Q Co $end
+$var reg 1 > S $end
+$upscope $end
+$scope module sram $end
+$var wire 1 ;# BL $end
+$var wire 1 ># WL $end
+$var reg 1 A# Q $end
+$var reg 1 B# QB $end
+$var reg 1 E# SRAM $end
+$upscope $end
+$scope module we_mux $end
+$var wire 1 5 A $end
+$var wire 1 =# S $end
+$var wire 1 ?# B $end
+$var reg 1 @# O $end
+$upscope $end
+$scope module xnor1 $end
+$var wire 1 ;# A $end
+$var wire 1 A# B $end
+$var reg 1 ?# O $end
+$upscope $end
+$upscope $end
+$scope module B_3_2 $end
+$var wire 1 F# BL $end
+$var wire 1 G# CE $end
+$var wire 1 N CI $end
+$var wire 1 > INPUT $end
+$var wire 1 1 SI $end
+$var wire 1 0 SO $end
+$var wire 1 H# WE $end
+$var wire 1 I# WL $end
+$var wire 1 J# XNOR_to_MUX $end
+$var wire 1 K# WE_MUX_to_FA $end
+$var wire 1 L# SRAM_to_XNOR $end
+$var wire 1 M# SRAM_QB $end
+$var wire 1 = OUTPUT $end
+$var wire 1 M CO $end
+$var wire 1 N# CE_MUX_to_FA $end
+$scope module ce_mux $end
+$var wire 1 O# A $end
+$var wire 1 N B $end
+$var wire 1 G# S $end
+$var reg 1 N# O $end
+$upscope $end
+$scope module fa $end
+$var wire 1 > A $end
+$var wire 1 N# Cin $end
+$var wire 1 K# B $end
+$var reg 1 M Co $end
+$var reg 1 = S $end
+$upscope $end
+$scope module sram $end
+$var wire 1 F# BL $end
+$var wire 1 I# WL $end
+$var reg 1 L# Q $end
+$var reg 1 M# QB $end
+$var reg 1 P# SRAM $end
+$upscope $end
+$scope module we_mux $end
+$var wire 1 1 A $end
+$var wire 1 H# S $end
+$var wire 1 J# B $end
+$var reg 1 K# O $end
+$upscope $end
+$scope module xnor1 $end
+$var wire 1 F# A $end
+$var wire 1 L# B $end
+$var reg 1 J# O $end
+$upscope $end
+$upscope $end
+$scope module B_3_3 $end
+$var wire 1 Q# BL $end
+$var wire 1 R# CE $end
+$var wire 1 J CI $end
+$var wire 1 = INPUT $end
+$var wire 1 - SI $end
+$var wire 1 , SO $end
+$var wire 1 S# WE $end
+$var wire 1 T# WL $end
+$var wire 1 U# XNOR_to_MUX $end
+$var wire 1 V# WE_MUX_to_FA $end
+$var wire 1 W# SRAM_to_XNOR $end
+$var wire 1 X# SRAM_QB $end
+$var wire 1 Y# OUTPUT $end
+$var wire 1 I CO $end
+$var wire 1 Z# CE_MUX_to_FA $end
+$scope module ce_mux $end
+$var wire 1 [# A $end
+$var wire 1 J B $end
+$var wire 1 R# S $end
+$var reg 1 Z# O $end
+$upscope $end
+$scope module fa $end
+$var wire 1 = A $end
+$var wire 1 Z# Cin $end
+$var wire 1 V# B $end
+$var reg 1 I Co $end
+$var reg 1 Y# S $end
+$upscope $end
+$scope module sram $end
+$var wire 1 Q# BL $end
+$var wire 1 T# WL $end
+$var reg 1 W# Q $end
+$var reg 1 X# QB $end
+$var reg 1 \# SRAM $end
+$upscope $end
+$scope module we_mux $end
+$var wire 1 - A $end
+$var wire 1 S# S $end
+$var wire 1 U# B $end
+$var reg 1 V# O $end
+$upscope $end
+$scope module xnor1 $end
+$var wire 1 Q# A $end
+$var wire 1 W# B $end
+$var reg 1 U# O $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0\#
+1[#
+1Z#
+0Y#
+1X#
+0W#
+1V#
+1U#
+0T#
+0S#
+1R#
+0Q#
+0P#
+0O#
+0N#
+1M#
+0L#
+0K#
+0J#
+0I#
+0H#
+1G#
+1F#
+0E#
+0D#
+0C#
+1B#
+0A#
+0@#
+0?#
+0>#
+0=#
+1<#
+1;#
+0:#
+19#
+18#
+17#
+06#
+15#
+14#
+03#
+02#
+01#
+10#
+0/#
+0.#
+1-#
+1,#
+0+#
+1*#
+0)#
+1(#
+1'#
+0&#
+0%#
+1$#
+0##
+0"#
+0!#
+0~"
+1}"
+0|"
+0{"
+0z"
+0y"
+0x"
+1w"
+1v"
+0u"
+0t"
+0s"
+1r"
+0q"
+0p"
+0o"
+0n"
+0m"
+1l"
+1k"
+0j"
+1i"
+1h"
+1g"
+0f"
+1e"
+1d"
+0c"
+0b"
+0a"
+1`"
+0_"
+0^"
+1]"
+1\"
+0["
+1Z"
+0Y"
+1X"
+1W"
+0V"
+1U"
+1T"
+0S"
+0R"
+0Q"
+0P"
+1O"
+0N"
+0M"
+0L"
+0K"
+1J"
+1I"
+1H"
+0G"
+0F"
+0E"
+1D"
+0C"
+0B"
+0A"
+0@"
+1?"
+1>"
+1="
+0<"
+1;"
+1:"
+19"
+08"
+17"
+16"
+05"
+14"
+03"
+12"
+01"
+00"
+1/"
+1."
+0-"
+1,"
+0+"
+1*"
+1)"
+0("
+1'"
+0&"
+0%"
+0$"
+0#"
+0""
+0!"
+0~
+1}
+0|
+0{
+0z
+0y
+1x
+0w
+0v
+0u
+1t
+0s
+0r
+0q
+1p
+0o
+0n
+0m
+0l
+1k
+0j
+0i
+0h
+1g
+0f
+1e
+1d
+1c
+0b
+1a
+1`
+0_
+1^
+0]
+0\
+0[
+0Z
+0Y
+1X
+1W
+1V
+1U
+0T
+0S
+0R
+0Q
+0P
+0O
+0N
+0M
+1L
+1K
+1J
+1I
+0H
+0G
+0F
+0E
+0D
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+b0 <
+1;
+1:
+19
+18
+07
+06
+05
+04
+03
+02
+01
+00
+1/
+1.
+1-
+1,
+b0 +
+b0 *
+b0 )
+b0 (
+b110 '
+b0 &
+b0 %
+b0 $
+b0 #
+b110 "
+b0 !
+$end
+#10
+1["
+1C
+1P"
+1P
+b10 !
+b10 <
+0-"
+1G
+0F
+0p
+0}
+17
+1n
+13
+1{
+1m
+1z
+1o
+1|
+1s
+1""
+1_
+1l
+1y
+1("
+b1 &
+b1 +
+#30
+0_
+0l
+0y
+0("
+b0 &
+b0 +
+#40
+1M
+1N#
+1N
+0,#
+0C#
+0s"
+1~"
+0K
+0Q
+0=
+0R
+0@
+0S
+1O
+0C
+08#
+0Z#
+0:"
+0\"
+0h"
+0U
+0?
+1>
+0I
+0Y#
+0V
+0B
+1A
+0J
+0+#
+0X
+0L
+0W
+0E
+1D
+b0 !
+b0 <
+0["
+08
+05#
+14
+1@#
+0,
+0V#
+09
+0e"
+15
+1p"
+0-
+0(#
+0d
+0;
+0a
+1q
+07
+0n
+0."
+0/
+0*"
+0:
+07"
+16
+1B"
+0.
+0X"
+0e
+0`
+1r
+0m
+0/"
+0)"
+0;"
+06"
+1F"
+1A"
+0]"
+0W"
+0i"
+0d"
+1t"
+1o"
+0-#
+0'#
+09#
+04#
+1D#
+1?#
+0[#
+0U#
+1Y
+0g
+1#"
+11"
+0="
+1S"
+1_"
+0k"
+1##
+1/#
+0;#
+1Q#
+b1101 "
+b1101 '
+#50
+1C#
+1Z#
+1s"
+0,#
+1Q
+1>
+1I
+1R
+1A
+1J
+1S
+0D
+0K
+1?
+1=
+1Y#
+1B
+1@
+0+#
+1E
+0C
+b1010 !
+b1010 <
+1["
+09"
+0O"
+0Z"
+18
+15#
+10
+1K#
+1,
+1V#
+19
+1e"
+11
+1{"
+1-
+1(#
+1:
+17"
+12
+1M"
+1.
+1X"
+16"
+1L"
+1W"
+18"
+1N"
+1Y"
+1<"
+1R"
+1^"
+15"
+1@"
+1K"
+1V"
+b10 &
+b10 +
+#70
+05"
+0@"
+0K"
+0V"
+b0 &
+b0 +
+#80
+1Q
+1C#
+1R
+0M
+1,#
+0N#
+1s"
+1K
+0N
+0>
+0I
+0A
+1S
+0D
+0Z#
+1:"
+1\"
+0~"
+0?
+0=
+0Y#
+0B
+0@
+0J
+1+#
+1X
+1L
+1E
+0O
+1C
+b100 !
+b100 <
+0["
+08
+05#
+00
+0K#
+0,
+0V#
+09
+0e"
+01
+0{"
+0-
+0(#
+1d
+1;
+1a
+1~
+03
+0{
+1."
+1/
+1*"
+0:
+07"
+02
+0M"
+0.
+0X"
+1e
+1`
+1!"
+0z
+1/"
+1)"
+1;"
+06"
+1Q"
+0L"
+1]"
+0W"
+1i"
+1d"
+1!#
+1z"
+1-#
+1'#
+19#
+14#
+1O#
+1J#
+1[#
+1U#
+0Y
+0t
+0#"
+01"
+0H"
+0S"
+0_"
+0v"
+0##
+0/#
+0F#
+0Q#
+b0 "
+b0 '
+#100
+1I
+1Z#
+0\"
+0Y#
+1J
+0+#
+0L
+b0 !
+b0 <
+0["
+1,
+1V#
+1-
+1(#
+0."
+0/
+0*"
+1.
+1X"
+0/"
+0)"
+0]"
+1W"
+0-#
+0'#
+0[#
+0U#
+1#"
+1S"
+1##
+1Q#
+b1000 "
+b1000 '
+#120
+1M
+1N#
+1N
+0Z#
+1\"
+1~"
+0,#
+0=
+0I
+0Y#
+0@
+0J
+0+#
+1L
+1O
+0C
+0K
+b10 !
+b10 <
+1["
+10
+1K#
+0,
+0V#
+11
+1{"
+0-
+0(#
+0~
+13
+1{
+1."
+1/
+1*"
+12
+1M"
+0.
+0X"
+0!"
+1z
+1/"
+1)"
+0Q"
+1L"
+1]"
+0W"
+0!#
+0z"
+1-#
+1'#
+0O#
+0J#
+1[#
+1U#
+1t
+0#"
+1H"
+0S"
+1v"
+0##
+1F#
+0Q#
+b100 "
+b100 '
+#140
+0I
+0Z#
+0J
+0\"
+0,#
+1Y#
+1+#
+0L
+0K
+b1110 !
+b1110 <
+1["
+1,
+1V#
+1-
+1(#
+0."
+0/
+0*"
+1.
+1X"
+0/"
+0)"
+0]"
+1W"
+0-#
+0'#
+0[#
+0U#
+1#"
+1S"
+1##
+1Q#
+b1100 "
+b1100 '
+#160
+0Z#
+0J
+0,#
+0K
+0C#
+0N#
+1\"
+0s"
+1~"
+0Q
+0>
+0M
+0=
+0Y#
+0R
+0A
+0N
+1@
+1+#
+1L
+0S
+1D
+1O
+0C
+b110 !
+b110 <
+1["
+04
+0@#
+00
+0K#
+0,
+0V#
+05
+0p"
+01
+0{"
+0-
+0(#
+0q
+17
+1n
+1~
+03
+0{
+1."
+1/
+1*"
+06
+0B"
+02
+0M"
+0.
+0X"
+0r
+1m
+1!"
+0z
+1/"
+1)"
+0F"
+0A"
+1Q"
+0L"
+1]"
+0W"
+0t"
+0o"
+1!#
+1z"
+1-#
+1'#
+0D#
+0?#
+1O#
+1J#
+1[#
+1U#
+1g
+0t
+0#"
+1="
+0H"
+0S"
+1k"
+0v"
+0##
+1;#
+0F#
+0Q#
+b10 "
+b10 '
+#180
+1I
+1Z#
+0\"
+0,#
+0Y#
+1J
+0+#
+0L
+0K
+b10 !
+b10 <
+1["
+1,
+1V#
+1-
+1(#
+0."
+0/
+0*"
+1.
+1X"
+0/"
+0)"
+0]"
+1W"
+0-#
+0'#
+0[#
+0U#
+1#"
+1S"
+1##
+1Q#
+b1010 "
+b1010 '
+#200
+1,#
+1M
+1K
+1N#
+0Z#
+1\"
+0=
+0I
+0Y#
+1N
+0@
+0J
+1+#
+1L
+1C
+b100 !
+b100 <
+0["
+10
+1K#
+0,
+0V#
+11
+1{"
+0-
+0(#
+0~
+13
+1{
+1."
+1/
+1*"
+12
+1M"
+0.
+0X"
+0!"
+1z
+1/"
+1)"
+0Q"
+1L"
+1]"
+0W"
+0!#
+0z"
+1-#
+1'#
+0O#
+0J#
+1[#
+1U#
+1t
+0#"
+1H"
+0S"
+1v"
+0##
+1F#
+0Q#
+b110 "
+b110 '
+#220
+1I
+1Z#
+0\"
+0Y#
+1J
+0+#
+0L
+b0 !
+b0 <
+0["
+1,
+1V#
+1-
+1(#
+0."
+0/
+0*"
+1.
+1X"
+0/"
+0)"
+0]"
+1W"
+0-#
+0'#
+0[#
+0U#
+1#"
+1S"
+1##
+1Q#
+b1110 "
+b1110 '
+#240
+0U
+08#
+1C#
+0~"
+0V
+1Q
+1R
+0O
+0N#
+1Z#
+0:"
+1\"
+0h"
+1s"
+1,#
+1?
+1>
+0M
+1=
+1I
+0Y#
+1B
+1A
+0N
+1@
+1J
+0+#
+0X
+1L
+0W
+1E
+1S
+0D
+1C
+1K
+b0 !
+b0 <
+0["
+18
+15#
+14
+1@#
+00
+0K#
+0,
+0V#
+19
+1e"
+15
+1p"
+01
+0{"
+0-
+0(#
+0d
+0;
+0a
+1q
+07
+0n
+1~
+03
+0{
+1."
+1/
+1*"
+1:
+17"
+16
+1B"
+02
+0M"
+0.
+0X"
+0e
+0`
+1r
+0m
+1!"
+0z
+1/"
+1)"
+0;"
+16"
+1F"
+1A"
+1Q"
+0L"
+1]"
+0W"
+0i"
+0d"
+1t"
+1o"
+1!#
+1z"
+1-#
+1'#
+09#
+04#
+1D#
+1?#
+1O#
+1J#
+1[#
+1U#
+1Y
+0g
+0t
+0#"
+11"
+0="
+0H"
+0S"
+1_"
+0k"
+0v"
+0##
+1/#
+0;#
+0F#
+0Q#
+b1 "
+b1 '
+#260
+0\"
+1Y#
+1+#
+0L
+b1100 !
+b1100 <
+0["
+1,
+1V#
+1-
+1(#
+0."
+0/
+0*"
+1.
+1X"
+0/"
+0)"
+0]"
+1W"
+0-#
+0'#
+0[#
+0U#
+1#"
+1S"
+1##
+1Q#
+b1001 "
+b1001 '
+#280
+0Z#
+0I
+0J
+1N#
+1\"
+1~"
+0,#
+1M
+1=
+1Y#
+1N
+1@
+1+#
+1L
+1O
+0C
+0K
+b1110 !
+b1110 <
+1["
+10
+1K#
+0,
+0V#
+11
+1{"
+0-
+0(#
+0~
+13
+1{
+1."
+1/
+1*"
+12
+1M"
+0.
+0X"
+0!"
+1z
+1/"
+1)"
+0Q"
+1L"
+1]"
+0W"
+0!#
+0z"
+1-#
+1'#
+0O#
+0J#
+1[#
+1U#
+1t
+0#"
+1H"
+0S"
+1v"
+0##
+1F#
+0Q#
+b101 "
+b101 '
+#300
+1Z#
+0\"
+0,#
+1I
+1Y#
+1J
+0+#
+0L
+0K
+b1010 !
+b1010 <
+1["
+1,
+1V#
+1-
+1(#
+0."
+0/
+0*"
+1.
+1X"
+0/"
+0)"
+0]"
+1W"
+0-#
+0'#
+0[#
+0U#
+1#"
+1S"
+1##
+1Q#
+b1101 "
+b1101 '
+#320
+0Q
+0,#
+0C#
+1N#
+0K
+0R
+1M
+0I
+1N
+0Z#
+1\"
+0s"
+1~"
+1>
+0=
+0Y#
+1A
+0@
+0J
+0+#
+1L
+0S
+1D
+1O
+0C
+b10 !
+b10 <
+1["
+04
+0@#
+00
+0K#
+0,
+0V#
+05
+0p"
+01
+0{"
+0-
+0(#
+0q
+17
+1n
+1~
+03
+0{
+1."
+1/
+1*"
+06
+0B"
+02
+0M"
+0.
+0X"
+0r
+1m
+1!"
+0z
+1/"
+1)"
+0F"
+0A"
+1Q"
+0L"
+1]"
+0W"
+0t"
+0o"
+1!#
+1z"
+1-#
+1'#
+0D#
+0?#
+1O#
+1J#
+1[#
+1U#
+1g
+0t
+0#"
+1="
+0H"
+0S"
+1k"
+0v"
+0##
+1;#
+0F#
+0Q#
+b11 "
+b11 '
+#340
+0I
+0Z#
+0J
+0\"
+0,#
+1Y#
+1+#
+0L
+0K
+b1110 !
+b1110 <
+1["
+1,
+1V#
+1-
+1(#
+0."
+0/
+0*"
+1.
+1X"
+0/"
+0)"
+0]"
+1W"
+0-#
+0'#
+0[#
+0U#
+1#"
+1S"
+1##
+1Q#
+b1011 "
+b1011 '
+#360
+1I
+1Z#
+1J
+1,#
+1K
+1\"
+1=
+0Y#
+1@
+0+#
+1L
+1C
+b0 !
+b0 <
+0["
+10
+1K#
+0,
+0V#
+11
+1{"
+0-
+0(#
+0~
+13
+1{
+1."
+1/
+1*"
+12
+1M"
+0.
+0X"
+0!"
+1z
+1/"
+1)"
+0Q"
+1L"
+1]"
+0W"
+0!#
+0z"
+1-#
+1'#
+0O#
+0J#
+1[#
+1U#
+1t
+0#"
+1H"
+0S"
+1v"
+0##
+1F#
+0Q#
+b111 "
+b111 '
+#380
+0\"
+1Y#
+1+#
+0L
+b1100 !
+b1100 <
+0["
+1,
+1V#
+1-
+1(#
+0."
+0/
+0*"
+1.
+1X"
+0/"
+0)"
+0]"
+1W"
+0-#
+0'#
+0[#
+0U#
+1#"
+1S"
+1##
+1Q#
+b1111 "
+b1111 '
+#400

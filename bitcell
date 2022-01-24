@@ -1,0 +1,271 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1110-g18392a46)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "D:\iverilog\lib\ivl\system.vpi";
+:vpi_module "D:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "D:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "D:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "D:\iverilog\lib\ivl\va_math.vpi";
+S_0000020bec57c0f0 .scope module, "bitcell_tb" "bitcell_tb" 2 3;
+ .timescale 0 0;
+v0000020bec5e07e0_0 .var "BL", 0 0;
+v0000020bec5e0380_0 .var "CE", 0 0;
+v0000020bec5e04c0_0 .var "CI", 0 0;
+v0000020bec5e1960_0 .net "CO", 0 0, v0000020bec589500_0;  1 drivers
+v0000020bec5e0560_0 .var "INPUT", 0 0;
+v0000020bec5e0880_0 .net "OUTPUT", 0 0, v0000020bec5895a0_0;  1 drivers
+v0000020bec5e1320_0 .var "SI", 0 0;
+o0000020bec595638 .functor BUFZ 1, C4<z>; HiZ drive
+v0000020bec5e0a60_0 .net "SO", 0 0, o0000020bec595638;  0 drivers
+v0000020bec5e1b40_0 .var "WE", 0 0;
+v0000020bec5e0f60_0 .var "WL", 0 0;
+S_0000020bec58eaa0 .scope module, "uut" "bitcell" 2 8, 3 6 0, S_0000020bec57c0f0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "SI";
+    .port_info 1 /INPUT 1 "CI";
+    .port_info 2 /INPUT 1 "WL";
+    .port_info 3 /INPUT 1 "BL";
+    .port_info 4 /INPUT 1 "WE";
+    .port_info 5 /INPUT 1 "CE";
+    .port_info 6 /INPUT 1 "INPUT";
+    .port_info 7 /OUTPUT 1 "OUTPUT";
+    .port_info 8 /OUTPUT 1 "CO";
+    .port_info 9 /OUTPUT 1 "SO";
+L_0000020bec578150 .functor NOT 1, v0000020bec5e07e0_0, C4<0>, C4<0>, C4<0>;
+v0000020bec5df550_0 .net "BL", 0 0, v0000020bec5e07e0_0;  1 drivers
+v0000020bec5df370_0 .net "CE", 0 0, v0000020bec5e0380_0;  1 drivers
+v0000020bec5dfaf0_0 .net "CE_MUX_to_FA", 0 0, v0000020bec58edc0_0;  1 drivers
+v0000020bec5df9b0_0 .net "CI", 0 0, v0000020bec5e04c0_0;  1 drivers
+v0000020bec5dfa50_0 .net "CO", 0 0, v0000020bec589500_0;  alias, 1 drivers
+v0000020bec5df230_0 .net "INPUT", 0 0, v0000020bec5e0560_0;  1 drivers
+v0000020bec5df5f0_0 .net "OUTPUT", 0 0, v0000020bec5895a0_0;  alias, 1 drivers
+v0000020bec5dfc30_0 .net "SI", 0 0, v0000020bec5e1320_0;  1 drivers
+v0000020bec5dfcd0_0 .net "SO", 0 0, o0000020bec595638;  alias, 0 drivers
+v0000020bec5dfe10_0 .net "SRAM_QB", 0 0, v0000020bec5df190_0;  1 drivers
+v0000020bec5dfeb0_0 .net "SRAM_to_XNOR", 0 0, v0000020bec53d190_0;  1 drivers
+v0000020bec5df4b0_0 .net "WE", 0 0, v0000020bec5e1b40_0;  1 drivers
+v0000020bec5dff50_0 .net "WE_MUX_to_FA", 0 0, v0000020bec5df910_0;  1 drivers
+v0000020bec5df050_0 .net "WL", 0 0, v0000020bec5e0f60_0;  1 drivers
+v0000020bec5df2d0_0 .net "XNOR_to_MUX", 0 0, v0000020bec5df410_0;  1 drivers
+S_0000020bec58ec30 .scope module, "ce_mux" "MUX_2" 3 47, 4 1 0, S_0000020bec58eaa0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "A";
+    .port_info 1 /INPUT 1 "B";
+    .port_info 2 /INPUT 1 "S";
+    .port_info 3 /OUTPUT 1 "O";
+    .port_info 4 /NODIR 0 "";
+v0000020bec57c330_0 .net "A", 0 0, L_0000020bec578150;  1 drivers
+v0000020bec58a5b0_0 .net "B", 0 0, v0000020bec5e04c0_0;  alias, 1 drivers
+v0000020bec58edc0_0 .var "O", 0 0;
+v0000020bec58ee60_0 .net "S", 0 0, v0000020bec5e0380_0;  alias, 1 drivers
+E_0000020bec57b900 .event anyedge, v0000020bec58ee60_0, v0000020bec58a5b0_0, v0000020bec57c330_0;
+S_0000020bec589190 .scope module, "fa" "full_adder" 3 55, 5 1 0, S_0000020bec58eaa0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "A";
+    .port_info 1 /INPUT 1 "B";
+    .port_info 2 /INPUT 1 "Cin";
+    .port_info 3 /OUTPUT 1 "S";
+    .port_info 4 /OUTPUT 1 "Co";
+v0000020bec589320_0 .net "A", 0 0, v0000020bec5e0560_0;  alias, 1 drivers
+v0000020bec5893c0_0 .net "B", 0 0, v0000020bec5df910_0;  alias, 1 drivers
+v0000020bec589460_0 .net "Cin", 0 0, v0000020bec58edc0_0;  alias, 1 drivers
+v0000020bec589500_0 .var "Co", 0 0;
+v0000020bec5895a0_0 .var "S", 0 0;
+E_0000020bec57aec0 .event anyedge, v0000020bec589320_0, v0000020bec5893c0_0, v0000020bec58edc0_0;
+S_0000020bec53cf60 .scope module, "sram" "SRAM" 3 27, 6 1 0, S_0000020bec58eaa0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "BL";
+    .port_info 1 /INPUT 1 "WL";
+    .port_info 2 /OUTPUT 1 "Q";
+    .port_info 3 /OUTPUT 1 "QB";
+    .port_info 4 /NODIR 0 "";
+v0000020bec53d0f0_0 .net "BL", 0 0, v0000020bec5e07e0_0;  alias, 1 drivers
+v0000020bec53d190_0 .var "Q", 0 0;
+v0000020bec5df190_0 .var "QB", 0 0;
+v0000020bec5df730_0 .var "SRAM", 0 0;
+v0000020bec5dfd70_0 .net "WL", 0 0, v0000020bec5e0f60_0;  alias, 1 drivers
+E_0000020bec57b300 .event anyedge, v0000020bec5dfd70_0, v0000020bec53d0f0_0, v0000020bec5df730_0, v0000020bec53d190_0;
+S_0000020bec53d230 .scope module, "we_mux" "MUX_2" 3 40, 4 1 0, S_0000020bec58eaa0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "A";
+    .port_info 1 /INPUT 1 "B";
+    .port_info 2 /INPUT 1 "S";
+    .port_info 3 /OUTPUT 1 "O";
+    .port_info 4 /NODIR 0 "";
+v0000020bec5df0f0_0 .net "A", 0 0, v0000020bec5e1320_0;  alias, 1 drivers
+v0000020bec5df690_0 .net "B", 0 0, v0000020bec5df410_0;  alias, 1 drivers
+v0000020bec5df910_0 .var "O", 0 0;
+v0000020bec5df7d0_0 .net "S", 0 0, v0000020bec5e1b40_0;  alias, 1 drivers
+E_0000020bec57ba40 .event anyedge, v0000020bec5df7d0_0, v0000020bec5df690_0, v0000020bec5df0f0_0;
+S_0000020bec5859e0 .scope module, "xnor1" "XNOR" 3 34, 7 1 0, S_0000020bec58eaa0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "A";
+    .port_info 1 /INPUT 1 "B";
+    .port_info 2 /OUTPUT 1 "O";
+    .port_info 3 /NODIR 0 "";
+v0000020bec5dfb90_0 .net "A", 0 0, v0000020bec5e07e0_0;  alias, 1 drivers
+v0000020bec5df870_0 .net "B", 0 0, v0000020bec53d190_0;  alias, 1 drivers
+v0000020bec5df410_0 .var "O", 0 0;
+E_0000020bec57b600 .event anyedge, v0000020bec53d0f0_0, v0000020bec53d190_0;
+    .scope S_0000020bec53cf60;
+T_0 ;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000020bec5df730_0, 0, 1;
+    %end;
+    .thread T_0;
+    .scope S_0000020bec53cf60;
+T_1 ;
+    %wait E_0000020bec57b300;
+    %load/vec4 v0000020bec5dfd70_0;
+    %pushi/vec4 1, 0, 1;
+    %cmp/e;
+    %flag_get/vec4 4;
+    %load/vec4 v0000020bec53d0f0_0;
+    %pushi/vec4 1, 0, 1;
+    %cmp/e;
+    %flag_get/vec4 4;
+    %and;
+    %flag_set/vec4 8;
+    %jmp/0xz  T_1.0, 8;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000020bec5df730_0, 0, 1;
+    %load/vec4 v0000020bec5df730_0;
+    %assign/vec4 v0000020bec53d190_0, 0;
+    %load/vec4 v0000020bec53d190_0;
+    %inv;
+    %assign/vec4 v0000020bec5df190_0, 0;
+    %jmp T_1.1;
+T_1.0 ;
+    %load/vec4 v0000020bec5dfd70_0;
+    %pushi/vec4 1, 0, 1;
+    %cmp/e;
+    %flag_get/vec4 4;
+    %load/vec4 v0000020bec53d0f0_0;
+    %pushi/vec4 0, 0, 1;
+    %cmp/e;
+    %flag_get/vec4 4;
+    %and;
+    %flag_set/vec4 8;
+    %jmp/0xz  T_1.2, 8;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000020bec5df730_0, 0, 1;
+    %load/vec4 v0000020bec5df730_0;
+    %assign/vec4 v0000020bec53d190_0, 0;
+    %load/vec4 v0000020bec53d190_0;
+    %inv;
+    %assign/vec4 v0000020bec5df190_0, 0;
+    %jmp T_1.3;
+T_1.2 ;
+    %load/vec4 v0000020bec5df730_0;
+    %assign/vec4 v0000020bec53d190_0, 0;
+    %load/vec4 v0000020bec53d190_0;
+    %inv;
+    %assign/vec4 v0000020bec5df190_0, 0;
+T_1.3 ;
+T_1.1 ;
+    %jmp T_1;
+    .thread T_1, $push;
+    .scope S_0000020bec5859e0;
+T_2 ;
+    %wait E_0000020bec57b600;
+    %load/vec4 v0000020bec5dfb90_0;
+    %load/vec4 v0000020bec5df870_0;
+    %xnor;
+    %store/vec4 v0000020bec5df410_0, 0, 1;
+    %jmp T_2;
+    .thread T_2, $push;
+    .scope S_0000020bec53d230;
+T_3 ;
+    %wait E_0000020bec57ba40;
+    %load/vec4 v0000020bec5df7d0_0;
+    %flag_set/vec4 8;
+    %jmp/0 T_3.0, 8;
+    %load/vec4 v0000020bec5df690_0;
+    %jmp/1 T_3.1, 8;
+T_3.0 ; End of true expr.
+    %load/vec4 v0000020bec5df0f0_0;
+    %jmp/0 T_3.1, 8;
+ ; End of false expr.
+    %blend;
+T_3.1;
+    %store/vec4 v0000020bec5df910_0, 0, 1;
+    %jmp T_3;
+    .thread T_3, $push;
+    .scope S_0000020bec58ec30;
+T_4 ;
+    %wait E_0000020bec57b900;
+    %load/vec4 v0000020bec58ee60_0;
+    %flag_set/vec4 8;
+    %jmp/0 T_4.0, 8;
+    %load/vec4 v0000020bec58a5b0_0;
+    %jmp/1 T_4.1, 8;
+T_4.0 ; End of true expr.
+    %load/vec4 v0000020bec57c330_0;
+    %jmp/0 T_4.1, 8;
+ ; End of false expr.
+    %blend;
+T_4.1;
+    %store/vec4 v0000020bec58edc0_0, 0, 1;
+    %jmp T_4;
+    .thread T_4, $push;
+    .scope S_0000020bec589190;
+T_5 ;
+    %wait E_0000020bec57aec0;
+    %load/vec4 v0000020bec589320_0;
+    %load/vec4 v0000020bec5893c0_0;
+    %xor;
+    %load/vec4 v0000020bec589460_0;
+    %xor;
+    %assign/vec4 v0000020bec5895a0_0, 0;
+    %load/vec4 v0000020bec589320_0;
+    %load/vec4 v0000020bec5893c0_0;
+    %and;
+    %load/vec4 v0000020bec5893c0_0;
+    %load/vec4 v0000020bec589460_0;
+    %and;
+    %or;
+    %load/vec4 v0000020bec589320_0;
+    %load/vec4 v0000020bec589460_0;
+    %and;
+    %or;
+    %assign/vec4 v0000020bec589500_0, 0;
+    %jmp T_5;
+    .thread T_5, $push;
+    .scope S_0000020bec57c0f0;
+T_6 ;
+    %vpi_call 2 22 "$dumpfile", "bitcell.vcd" {0 0 0};
+    %vpi_call 2 23 "$dumpvars", 32'sb00000000000000000000000000000000, S_0000020bec57c0f0 {0 0 0};
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000020bec5e1320_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000020bec5e04c0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000020bec5e0f60_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000020bec5e07e0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000020bec5e1b40_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000020bec5e0380_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000020bec5e0560_0, 0, 1;
+    %delay 20, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000020bec5e0f60_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000020bec5e07e0_0, 0, 1;
+    %delay 20, 0;
+    %vpi_call 2 40 "$display", "Test completed" {0 0 0};
+    %end;
+    .thread T_6;
+# The file index is used to find the file name in the following table.
+:file_names 8;
+    "N/A";
+    "<interactive>";
+    "bitcell_tb.v";
+    "./bitcell.v";
+    "./mux2.v";
+    "./fa.v";
+    "./sram.v";
+    "./xnor.v";
